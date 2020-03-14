@@ -24,9 +24,7 @@ buttonSubmit.addEventListener('click', (e) => {
             password : valueInputPassword
         });
         
-        for(var i=0; i<DB_USER.length; i++){
-            console.log(DB_USER[i]);
-        }
+        console.log(DB_USER);
     }
 
     const warningMsg = document.querySelector(".warning");
